@@ -1,4 +1,4 @@
-# PowerShell Skript - Automatisierung OpenSSH Server Installation and VIM
+# PowerShell Skript - Automatisierung OpenSSH Server Installation und VIM
 
 #Requires -RunAsAdministrator
 
@@ -7,7 +7,7 @@
 
 ###### Funktionen ######
 
-# Auswahlmenü
+# Auswahlmenue
 function Show-Menu
 {
     param (
@@ -41,13 +41,6 @@ function install-openssh-server
 	}
 
 
-#	# Internetverbindung checken (not working)
-#	if ( -Not ((Test-NetConnection).PingSucceeded ) )
-#	{
-#		write-host "Keine Internetverbindung, überprüfen und erneut starten."
-#		return
-#	}
-	
 	# OpenSSH Server installieren
 	write-host "OpenSSH Server wird installiert."
 	Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
