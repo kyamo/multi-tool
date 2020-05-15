@@ -1,4 +1,4 @@
-# PowerShell Skript - Automatisierung OpenSSH Server Installation und VIM
+# PowerShell Skript zur automatisierten Installation eines OpenSSH Server und der Option, VIM als Standardeditor festzulegen.
 
 #Requires -RunAsAdministrator
 
